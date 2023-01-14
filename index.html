@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento onclick</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="container">
+        <!-- Dojonary -->
+        <div id="headerTittle">
+            <h1>Dojonary</h1>
+            <input type="text" placeholder="Search" id="search">
+            <button onclick="login(this)" class="button" id="login">Login</button>
+        </div>
+        
+        <!-- content box 1 -->
+        <div id="box1">
+            <div id="contentBox1">
+                <h1>ninja</h1>
+                <em>noun</em>
+                <p>Plural:<em>ninjas</em></p>
+                <button onclick="alert('Ninja was like')" class="likes" id="alerta">13 likes</button>
+            </div>    
+            <div class="textBox1">
+                <p>A practitioner skilled in the
+                    <a href="#">Japanese</a> 
+                    art if 
+                    <a href="#">ninjutsu</a>
+                </p>
+            </div>
+        </div>
+    
+        <!-- content box 2 -->
+        <div id="box2">
+            <div id="contentBox2">
+                <h3>Dojonary is defined by <strong>YOU</strong></h3>
+                <button onclick="borrar(this);" class="add" id="borrar">Add Definition</button>
+            </div>
+        </div>
+
+        <!-- content box 3 -->
+        <div id="box3">
+            <div id="contentBox1">
+                <h1>ninja</h1>
+                <em>noun</em>
+                <p>Plural: <em>ninjas</em></p>
+                <br/>
+                <button onclick="alert('Ninja was like')" class="likes" id="alerta2">37 likes</button>
+            </div>
+            <div class="textBox2">
+                <p>A
+                    <a href="#">programmer</a>
+                    who breaks down problems with 
+                    <a href="#">zen</a>
+                    -like focus
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
